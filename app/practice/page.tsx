@@ -6,7 +6,7 @@ export default function Home() {
 	return (
 		<main className="min-h-screen px-36 pt-14">
 			<Navbar />
-			<h1 className="text-3xl py-8">Sign Language App</h1>
+			<h1 className="text-3xl py-8">Practice</h1>
 			<p>
 				Ea aliquip non pariatur nostrud veniam aliqua. Est id et consectetur
 				exercitation veniam. Veniam exercitation officia ullamco enim dolore
