@@ -1,10 +1,11 @@
+import Navbar from "@/components/NavBar";
 import { UserButton } from "@clerk/nextjs";
 import Image from "next/image";
 
 export default function Home() {
 	return (
-		<main className="flex min-h-screen flex-col items-center justify-between p-24">
-			<UserButton />
+		<main className="min-h-screen px-36 pt-14">
+			<Navbar />
 			<h1 className="text-3xl">Sign Language App</h1>
 			<p>
 				Ea aliquip non pariatur nostrud veniam aliqua. Est id et consectetur
